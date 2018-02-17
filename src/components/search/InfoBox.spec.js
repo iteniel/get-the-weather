@@ -9,9 +9,9 @@ describe('<InfoBox />', () => {
       <InfoBox
         city = "London"
         date = "Feb 15"
-        temperature = "1"
+        temperature = {1}
         description = "cloudy"
-        humidity = "50%"
+        humidity = {50}
         wind="12 km/h"
       />
     );

@@ -19,6 +19,9 @@ const styles = {
   },
   clear: {
     clear: 'both'
+  },
+  pageWrapper: {
+    margin: '10px 20px 20px',
   }
 };
 
