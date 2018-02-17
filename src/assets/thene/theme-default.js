@@ -5,8 +5,8 @@ const themeDefault = getMuiTheme({
   palette: {
   },
   appBar: {
-    height: 57,
-    color: grey700
+    height: 200,
+    color: grey700,
   },
   drawer: {
     width: 230,

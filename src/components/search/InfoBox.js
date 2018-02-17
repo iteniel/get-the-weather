@@ -68,7 +68,7 @@ class InfoBox extends React.Component {
             <span style = {styles.text}>{description}</span>
           </div>
           <div className= "colThree" style = {styles.colThree}>
-            <span style = {styles.text}>humidity: {humidity}</span>
+            <span style = {styles.text}>humidity: {humidity}%</span>
             <span style = {styles.text}>wind: {wind}</span>
           </div>
         </div>
@@ -80,9 +80,9 @@ class InfoBox extends React.Component {
 InfoBox.propTypes = {
   city: PropTypes.string,
   date: PropTypes.string,
-  temperature: PropTypes.string,
+  temperature: PropTypes.number,
   description: PropTypes.string,
-  humidity: PropTypes.string,
+  humidity: PropTypes.number,
   wind: PropTypes.string
 };
 

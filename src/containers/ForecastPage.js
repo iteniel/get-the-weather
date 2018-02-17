@@ -24,22 +24,22 @@ const styles = {
   },
 };
 
-const NotFoundPage = () => {
+const ForecastPage = () => {
   return (
     <div>
       <div>
-        <HeaderPages title= "Sorry! Page Not Found" />
+        <HeaderPages title= "Five day forecast" />
       </div>
       <div style={globalStyles.pageWrapper}>
-        <h3 style={globalStyles.navigation}>Application / 404 Page Not Found</h3>
+        <h3 style={globalStyles.navigation}>Application / Five day forecast</h3>
       
         <div style = {styles.wrapper}>
-          <span style = {styles.textOne}>404</span>
-          <span style = {styles.textTwo}>Page Not Found</span>
+            <span style={styles.textOne}>forecast</span>
+            <span style={styles.textTwo}>Five day forecast</span>
         </div>
       </div>
     </div>
   );
 };
 
-export default NotFoundPage;
+export default ForecastPage;

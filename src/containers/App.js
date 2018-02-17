@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import Header from '../components/Header';
 import ThemeDefault from '../assets/thene/theme-default';
 
 class App extends React.Component {
@@ -19,7 +18,6 @@ class App extends React.Component {
         paddingLeft: 0
       },
       container: {
-        margin: '80px 20px 20px 15px',
         paddingLeft: 0
       }
     };
@@ -27,8 +25,6 @@ class App extends React.Component {
     return (
       <MuiThemeProvider muiTheme = {ThemeDefault}>
         <div>
-          <Header styles = {styles.header} />
-
           <div style = {styles.container}>
             {this.props.children}
           </div>
