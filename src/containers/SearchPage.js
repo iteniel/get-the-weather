@@ -2,7 +2,8 @@ import React from 'react';
 import InfoBox from '../components/search/InfoBox';
 import globalStyles from '../assets/thene/styles';
 import HeaderSearch from '../components/HeaderSearch';
-import { getWeather } from "../assets/Api";
+import { getWeather } from '../assets/Api';
+import { Link } from 'react-router';
 
 class SearchPage extends React.Component {
 
@@ -39,14 +40,16 @@ class SearchPage extends React.Component {
   renderCity(data) {
     return (
       <div key = {data.id} className = "col-xs-12 col-sm-6 col-md-4 col-lg-4 m-b-15 ">
-        <InfoBox
-          city = {data.name}
-          date = {data.date}
-          temperature = {data.temp}
-          description = {data.desc}
-          humidity = {data.humidity}
-          wind = {data.wind + " km/h"}
-        />
+        <Link to = {"forecast/"+ data.id}>
+          <InfoBox
+            city = {data.name}
+            date = {data.date}
+            temperature = {data.temp}
+            description = {data.desc}
+            humidity = {data.humidity}
+            wind = {data.wind + " km/h"}
+          />
+        </Link>
       </div>
     );
   }

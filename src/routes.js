@@ -9,8 +9,8 @@ export default (
   <Route>
     <Route path="/" component={App}>
       <IndexRoute component={SearchPage}/>
-      <Route path="search" component={SearchPage}/>
-      <Route path="five-day-forecast" component={ForecastPage}/>
+      <Route path="weather" component={SearchPage}/>
+      <Route path="forecast/:id" component={ForecastPage}/>
       <Route path="*" component={NotFoundPage}/>
     </Route>
   </Route>
