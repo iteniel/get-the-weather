@@ -5,7 +5,8 @@ import { typography } from 'material-ui/styles';
 const styles = {
   appBar: {
     overflow: 'hidden',
-    height: 55,
+    minHeight: 55,
+    paddingBottom: 5,
     backgroundColor: grey700
   },
   container: {

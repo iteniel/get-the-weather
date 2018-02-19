@@ -15,11 +15,11 @@ describe('<InfoBox />', () => {
         wind="12 km/h"
       />
     );
+    
     const container = wrapper.find('div > div');
     const colOne = wrapper.find('.colOne > span');
     const colTwo = wrapper.find('.colTwo > span');
     const colThree = wrapper.find('.colThree > span');
-
 
     expect(container).to.have.length.of(3);
     expect(colOne).to.have.length.of(2);
