@@ -12,7 +12,7 @@ Installation / Running
 
 Description
 ------------
-I go with "http://openweathermap.org/" recommendation and implement search by is at the time have the small city list.  Need to implement no sql or sqlite base for improve the search (London,Paris,Los Angeles,Belgrade,Subotica,Novi Sad,Budapest,Berlin)
+I go with "http://openweathermap.org/" recommendation and implement search by is at the time have the small city list.  Need to implement no sql or sqlite base for improve the search (London,Paris,Los Angeles,Belgrade,Subotica,Novi Sad,Budapest,Berlin). Developed and tested on linux
 
 App Screenshots
 ----------------
