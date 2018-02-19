@@ -16,7 +16,7 @@ I go with "http://openweathermap.org/" recommendation and implement search by is
 
 App Screenshots
 ----------------
-![Search Page desktop](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_318.png "[Search Page desktop")
+[Search Page desktop](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_318.png "[Search Page desktop")
 
 
 License
