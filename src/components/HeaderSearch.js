@@ -8,9 +8,9 @@ import Data from '../assets/Data';
 const styles = {
   appBar: {
     overflow: 'hidden',
-    height: 100,
-    maxHeight: 200,
-    backgroundColor: grey700
+    minHeight: 100,
+    backgroundColor: grey700,
+    paddingBottom: 5
   },
   menuButton: {
     marginLeft: 10
@@ -85,6 +85,7 @@ class HeaderSearch extends React.Component {
       });
       this.props.addCity(selected.id);
     }
+    this.refs.autocomplete.setState({searchText: ""});
   }
 
   handleRequestDelete(id) {
@@ -100,6 +101,7 @@ class HeaderSearch extends React.Component {
         <div style = {styles.appBar}>
           <div style = {styles.container} >
             <AutoComplete
+              ref = "autocomplete"
               hintText = "Search..."
               fullWidth = {true}
               underlineShow = {false}

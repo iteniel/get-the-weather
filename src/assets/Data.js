@@ -1,4 +1,4 @@
-const data = {
+const Data = {
   cities: [
     { "id": 2643743, "name": "London" },
     { "id": 6455259, "name": "Paris" },
@@ -11,4 +11,4 @@ const data = {
   ]
 };
 
-export default data;
+export default Data;
