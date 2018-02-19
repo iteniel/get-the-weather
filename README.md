@@ -16,7 +16,13 @@ I go with "http://openweathermap.org/" recommendation and implement search by is
 
 App Screenshots
 ----------------
-[Search Page desktop](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_318.png "[Search Page desktop")
+![Search Page desktop](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_318.png "Search Page desktop")
+![Forecast Page desktop 1](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_319.png "Forecast Page desktop 1")
+![Forecast Page desktop 2](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_320.png "Forecast Page desktop 2")
+![Search Page mobile](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_321.png "Search Page mobile")
+![Forecast Page mobile 1](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_322.png "Forecast Page mobile 1")
+![Forecast Page mobile 2](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_323.png "Forecast Page mobile 2")
+![404 Page Not Found mobile](https://github.com/iteniel/get-the-weather/blob/master/screenshots/Get%20the%20Weather%20-%20Google%20Chrome_324.png "404 Page Not Found mobile")
 
 
 License
